@@ -20,13 +20,18 @@
 		<!-- Logo -->
 		<h1>Faithful 32 <span style="color: #0026FF">Modd</span><span style="color: #32A800">ed Edi</span><span style="color: #E50000">tion</span></h1>
 		<!-- 1.7.10 DL -->
-		<h3><b><a href="http://www.f32.me/F32-1.7.10.zip">Latest Pack (1.7.10)</a></b></h3>
-		<!-- 1.7.10 Commit History -->
-		<iframe src="http://tylerlh.github.com/github-latest-commits-widget/?username=F32Organization&repo=Faithful32-1.7.10&limit=5"
-  		allowtransparency="true" frameborder="0" scrolling="no" width="502px" height="252px"></iframe>
-  		<br><br>
+		<b><a href="http://www.f32.me/F32-1.7.10.zip">Latest Pack (1.7.10)</a></b>	
+		<?php
+		// Output example: Last rebuilt: March 27 2015 22:16:23.
+		echo "Last rebuilt: ".date("F d Y H:i:s.",filemtime("F32-1.7.10.zip"));
+		?>
+		<br><br>
   		<!-- 1.6.4 DL -->
 		<b><a href="http://www.f32.me/F32-1.6.4.zip">Latest Pack (1.6.4)</a></b>
+		<?php
+		// Output example: Last rebuilt: March 27 2015 22:16:23.
+		echo "Last rebuilt: ".date("F d Y H:i:s.",filemtime("F32-1.6.4.zip"));
+		?>
 		<br><br>
 		<!-- 1.5.2 & 1.4.7 DL -->
 		<a href="http://www.f32.me/old">Older Packs (1.5.2 & 1.4.7)</a>
