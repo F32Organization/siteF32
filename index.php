@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Faithful 32 - Modded Edition</title>
+        <link href="Style.css" rel="stylesheet">
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
   			_gaq.push(['_setAccount', 'UA-49976593-1']);
