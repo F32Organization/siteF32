@@ -30,7 +30,7 @@
 		<br><br>
 		<!-- Fetch md5 value from build script file and display. -->
 		<?php
-		$myfile = fopen("./git/old1710sum.md5", "r") or die("Unable to open file!");
+		$myfile = fopen("./git/old1710sum.md5", "r");
 		echo "md5 hash value: ";
 		echo fgets($myfile);
 		fclose($myfile);
@@ -46,7 +46,7 @@
 		<br><br>
 		<!-- Fetch md5 value from build script file and display. -->
 		<?php
-		$myfile = fopen("./git/old164sum.md5", "r") or die("Unable to open file!");
+		$myfile = fopen("./git/old164sum.md5", "r");
 		echo "md5 hash value: ";
 		echo fgets($myfile);
 		fclose($myfile);
@@ -70,11 +70,11 @@
 		<p>Specific texture requests are acceptable.</p>
 		<br><br>
 		<footer>
-		    <p style="font-size: 75%;">Hosting provided by Greenphlem</p>
-			<p style="font-size: 75%;">Page created by DZCreeper with input from ArtDude543</p>
-			<p style="font-size: 75%;">Vanilla pack and some mod textures by Vattic.</p>
-			<p style="font-size: 75%;">All the people that have made mod textures.</p>
-			<p style="font-size: 75%;"><strong>2014 - Present</strong></p>
+			<p style="font-size: 75%;">Credit to:</p>
+		    <p style="font-size: 75%;">Greenphlem: Site hosting</p>
+			<p style="font-size: 75%;">DZCreeper: Initial design</p>
+			<p style="font-size: 75%;">Vattic: Vanilla pack</p>
+			<p style="font-size: 75%;"><a href="https://github.com/F32Organization/Faithful32-1.7.10/graphs/contributors">Github Contributors</a> + Third Parties: Mod textures</p>
 		</footer>
 	</body>
 </html>
