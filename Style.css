@@ -1,0 +1,88 @@
+/* A list of compilers is available at: http://sass-lang.com/install
+ Compile this document with the output file called 'Style.css' */
+/* Start Variable List */
+/* All items wist a '$' at the beginning are variables.
+ Change what is following them to change the look of the website */
+/* End Variable List */
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #000000;
+  color: #FFFFFF; }
+
+a {
+  text-decoration: none;
+  color: #bababa; }
+
+/* Start logo */
+#Logo {
+  text-align: center; }
+
+/* End logo */
+/* Start Buttons */
+.LeftButton {
+  padding: 5px;
+  width: 47%;
+  border-radius: 5px;
+  border: solid 2px #FFFFFF;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+  float: left;
+  clear: left;
+  margin: 0 1px 2px 1%;
+  background-color: #fafafa; }
+
+@media (max-width: 1229px) {
+  .LeftButton {
+    width: 45%; } }
+@media (max-width: 603px) {
+  .LeftButton {
+    width: 42%; } }
+.RightButton {
+  padding: 5px;
+  width: 47%;
+  border-radius: 5px;
+  border: solid 2px #FFFFFF;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+  float: right;
+  clear: right;
+  margin: 0 1% 2px 1px;
+  background-color: #fafafa; }
+
+@media (max-width: 1229px) {
+  .RightButton {
+    width: 45%; } }
+@media (max-width: 603px) {
+  .RightButton {
+    width: 42%; } }
+.FullWidthButton {
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 2px #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  float: inherit;
+  clear: both;
+  margin: 0 1% 2px 1%;
+  background-color: #fafafa; }
+
+/* End Buttons */
+/* Start Text */
+#Text {
+  clear: both;
+  float: left;
+  padding-top: 0.1em;
+  padding-left: 2%;
+  padding-right: 2%; }
+
+/* Start Credit */
+#Credit {
+  clear: both;
+  font-size: 75%; }
+
+/* End Credit */
+/* End Text */
