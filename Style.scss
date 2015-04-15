@@ -1,3 +1,9 @@
+/* A list of compilers is available at: http://sass-lang.com/install
+ Compile this document with the output file called 'Style.css' */
+
+/* Start Variable List */
+/* All items wist a '$' at the beginning are variables.
+ Change what is following them to change the look of the website */
 $MainBackgroundColor: #000000;
 $MainTextColor: #FFFFFF;
 
@@ -10,24 +16,21 @@ $HyperlinkDecoration: none;
 
 $SidePadding: 10%;
 $CreditFontSize: 75%;
-
+/* End Variable List */
 
 body {
   padding-left: $SidePadding;
   padding-right: $SidePadding;
   background-color: $MainBackgroundColor;
-  color: $MainTextColor;
-}
+  color: $MainTextColor;}
 
 a{
   text-decoration: $HyperlinkDecoration;
-  color: $HyperlinkColor;
-}
+  color: $HyperlinkColor;}
 
 /* Start logo */
 #Logo {
-  text-align: center;
-}
+  text-align: center;}
 /* End logo */
 
 /* Start Buttons */
@@ -42,18 +45,13 @@ a{
   float: left;
   clear: left;
   margin: 0 1px 2px 1%;
-  background-color: $ButtonBackgroundColor;
-}
+  background-color: $ButtonBackgroundColor;}
 @media (max-width: 1229px) {
   .LeftButton{
-    width: 45%;
-  }
-}
+    width: 45%;}}
 @media (max-width: 603px) {
   .LeftButton{
-    width: 42%;
-  }
-}
+    width: 42%;}}
 .RightButton{
   padding: 5px;
   width: 47%;
@@ -65,18 +63,13 @@ a{
   float: right;
   clear: right;
   margin: 0 1% 2px 1px;
-  background-color: $ButtonBackgroundColor;
-}
+  background-color: $ButtonBackgroundColor;}
 @media (max-width: 1229px) {
   .RightButton{
-    width: 45%;
-  }
-}
+    width: 45%;}}
 @media (max-width: 603px) {
   .RightButton{
-    width: 42%;
-  }
-}
+    width: 42%;}}
 
 .FullWidthButton{
   padding: 5px;
@@ -88,19 +81,19 @@ a{
   float: inherit;
   clear: both;
   margin: 0 1% 2px 1%;
-  background-color: $ButtonBackgroundColor;
-}
+  background-color: $ButtonBackgroundColor;}
 /* End Buttons */
-
+/* Start Text */
 #Text{
   clear: both;
+  float: left;
   padding-top: 0.1em;
   padding-left: 2%;
-  padding-right: 2%;
-}
+  padding-right: 2%;}
 
 /* Start Credit */
 #Credit{
-  font-size: $CreditFontSize;
-}
+  clear: both;
+  font-size: $CreditFontSize;}
 /* End Credit */
+/* End Text */
