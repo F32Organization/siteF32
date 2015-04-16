@@ -29,7 +29,7 @@
         <!-- Fetch and display last time file was modified. -->
         <?php
         // Output example: Last rebuilt: March 27 2015 22:16:23.
-        echo "Last rebuilt: ".date("M-j-y H:i",@filemtime("F32-1.7.10.zip"));
+        echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.7.10.zip"));
         ?>
         <br>
         <!-- Fetch md5 value from build script file and display. -->
@@ -50,7 +50,7 @@
         <!-- Fetch and display last time file was modified. -->
         <?php
         // Output example: Last rebuilt: March 27 2015 22:16:23.
-        echo "Last rebuilt: ".date("M-j-y H:i",@filemtime("F32-1.6.4.zip"));
+        echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.6.4.zip"));
         ?>
         <br>
         <!-- Fetch md5 value from build script file and display. -->
