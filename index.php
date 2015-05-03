@@ -34,7 +34,7 @@
         <br>
         <!-- Fetch md5 value from build script file and display. -->
         <?php
-        $my_file = @fopen("./git/old1710sum.md5", "r");
+        $my_file = @fopen("1710sum.md5", "r");
         echo "md5 hash value: ";
         echo @fgets($my_file);
         @fclose($my_file);
@@ -55,7 +55,7 @@
         <br>
         <!-- Fetch md5 value from build script file and display. -->
         <?php
-        $my_file = @fopen("./git/old164sum.md5", "r");
+        $my_file = @fopen("164sum.md5", "r");
         echo "md5 hash value: ";
         echo @fgets($my_file);
         @fclose($my_file);
