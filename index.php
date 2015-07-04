@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="shortcut icon" type="image/ico" href="favicon.png" />
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Modded Edition of Faithful 32x">
+    <meta name="keywords" content="faithful, modded faithful, faithful 32, minecraft mods, faithful mods, modded edition">
+    <meta name="robots" content="index, follow">
     <title>Faithful 32 - Modded Edition</title>
     <link href="Style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="favicon.png">
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-49976593-1']);
@@ -67,21 +70,21 @@
 <br class="clear">
 
 <!-- 1.5.2 & 1.4.7 DL -->
-<div class="button button-100">
+<div class="button button-100 center">
     <a href="http://www.f32.me/old">
         Older Packs (1.5.2 & 1.4.7)
     </a>
 </div>
 
 <!-- 1.7.10 Mod Support -->
-<div class="button button-50">
+<div class="button button-50 center">
     <a href="http://www.f32.me/1710">
         Individual Mod Support (1.7.10)
     </a>
 </div>
 
 <!-- 1.6.4 Mod Support -->
-<div class="button button-50">
+<div class="button button-50 center">
     <a href="http://www.f32.me/164">
         Individual Mod Support (1.6.4)
     </a>

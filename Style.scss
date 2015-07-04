@@ -13,8 +13,8 @@ $ButtonBackgroundColor: #fafafa;
 $ButtonHoverBackgroundColor: #c0c0c0;
 $ButtonTextColor: #222222;
 
-$HyperlinkColor: #bababa;
-$HyperlinkHoverColor: #dddddd;
+$HyperlinkColor: #6A75E8;
+$HyperlinkHoverColor: #9098EA;
 $HyperlinkDecoration: none;
 
 $SidePadding: 10%;
@@ -73,6 +73,8 @@ a:hover {
 }
 .button-100 {
   width: 100%;
+}
+.center {
   text-align: center;
 }
 /* End Buttons */
