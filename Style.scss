@@ -4,96 +4,91 @@
 /* Start Variable List */
 /* All items wist a '$' at the beginning are variables.
  Change what is following them to change the look of the website */
-$MainBackgroundColor: #000000;
+$MainBackgroundColor: #262626;
 $MainTextColor: #FFFFFF;
 
-$ButtonBackgroundColor: #fafafa;
-$ButtonTextColor: #000000;
-$ButtonBorderColor: #FFFFFF;
+$ShadowColor: rgba(0, 0, 0, 0.75);
 
-$HyperlinkColor: #bababa;
+$ButtonBackgroundColor: #fafafa;
+$ButtonHoverBackgroundColor: #c0c0c0;
+$ButtonTextColor: #222222;
+
+$HyperlinkColor: #6A75E8;
+$HyperlinkHoverColor: #9098EA;
 $HyperlinkDecoration: none;
 
 $SidePadding: 10%;
 $CreditFontSize: 75%;
 /* End Variable List */
 
+/* Add Open Sans hosted by Google Fonts */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,600,400');
+
 body {
   padding-left: $SidePadding;
   padding-right: $SidePadding;
   background-color: $MainBackgroundColor;
-  color: $MainTextColor;}
+  color: $MainTextColor;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+}
 
-a{
+a {
   text-decoration: $HyperlinkDecoration;
-  color: $HyperlinkColor;}
+  color: $HyperlinkColor;
+}
+a:hover {
+  color: $HyperlinkHoverColor;
+}
 
 /* Start logo */
-#Logo {
-  text-align: center;}
+#logo {
+  text-align: center;
+  text-shadow: 0px 0px 5px $ShadowColor;
+}
 /* End logo */
 
 /* Start Buttons */
-.LeftButton{
-  padding: 5px;
-  width: 47%;
-  border-radius: 5px;
-  border: solid 2px $ButtonBorderColor;
-  text-align: left;
-  color: $ButtonTextColor;
-  text-decoration: none;
+.button {
   float: left;
-  clear: left;
-  margin: 0 1px 2px 1%;
-  background-color: $ButtonBackgroundColor;}
-@media (max-width: 1229px) {
-  .LeftButton{
-    width: 45%;}}
-@media (max-width: 603px) {
-  .LeftButton{
-    width: 42%;}}
-.RightButton{
-  padding: 5px;
-  width: 47%;
-  border-radius: 5px;
-  border: solid 2px $ButtonBorderColor;
   text-align: left;
-  color: $ButtonTextColor;
-  text-decoration: none;
-  float: right;
-  clear: right;
-  margin: 0 1% 2px 1px;
-  background-color: $ButtonBackgroundColor;}
-@media (max-width: 1229px) {
-  .RightButton{
-    width: 45%;}}
-@media (max-width: 603px) {
-  .RightButton{
-    width: 42%;}}
-
-.FullWidthButton{
-  padding: 5px;
+}
+.button a {
+  display: block;
+  padding: 7px 10px;
   border-radius: 5px;
-  border: solid 2px $ButtonBorderColor;
-  color: $ButtonTextColor;
+  border: 0px;
+  color: $ButtonTextColor !important;
   text-decoration: none;
+  margin: 7px;
+  background-color: $ButtonBackgroundColor;
+  box-shadow: 0px 0px 5px $ShadowColor;
+}
+.button a:hover {
+  background-color: $ButtonHoverBackgroundColor;
+}
+
+.button-50 {
+  width: 50%;
+}
+.button-100 {
+  width: 100%;
+}
+.center {
   text-align: center;
-  float: inherit;
-  clear: both;
-  margin: 0 1% 2px 1%;
-  background-color: $ButtonBackgroundColor;}
+}
 /* End Buttons */
-/* Start Text */
-#Text{
-  clear: both;
-  float: left;
-  padding-top: 0.1em;
-  padding-left: 2%;
-  padding-right: 2%;}
 
-/* Start Credit */
-#Credit{
-  clear: both;
-  font-size: $CreditFontSize;}
-/* End Credit */
+/* Start Text */
+#text {
+  padding: 7px 10px;
+}
+
+#credits {
+  font-size: $CreditFontSize;
+}
 /* End Text */
+
+.clear {
+  clear: both;
+}
