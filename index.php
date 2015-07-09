@@ -95,17 +95,21 @@
 <div id="text">
     <p>
         Please submit issues on Github <a href="https://github.com/F32Organization/Faithful32-1.7.10">(1.7.10)</a>
-        <a href="https://github.com/F32Organization/Faithful32-1.6.4">(1.6.4)</a> if you have any questions, comments, or concerns.<br>
-        Specific texture requests are acceptable.
+        <a href="https://github.com/F32Organization/Faithful32-1.6.4">(1.6.4)</a> if you have any questions, comments, or concerns. Specific texture requests are acceptable.
     </p>
     <p id="credits">
-        Credit: Hosting provided by Greenphlem.
+        Credit:
+		<br>	
+		Hosting provided by Greenphlem.
+		<br>
         <a href="https://github.com/F32Organization/siteF32/graphs/contributors">
             Designed by Github Contributors.
         </a>
+		<br>
         <a href="http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1223254">
             Vanilla pack by Vattic.
         </a>
+		<br>
         <a href="https://github.com/F32Organization/Faithful32-1.7.10/graphs/contributors">
             Modded work by Github Contributors and older third parties.
         </a>
