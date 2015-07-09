@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A Modded Edition of Faithful 32x">
-    <meta name="keywords" content="faithful, modded faithful, faithful 32, minecraft mods, faithful mods, modded edition">
+    <meta name="keywords" content="faithful, faithful mod support, faithful 32, faithful modded, f32, f32me, f32 modded edition, faithful 32 modded edition, faithful 32 me">
     <meta name="robots" content="index, follow">
     <title>Faithful 32 - Modded Edition</title>
-    <link href="Style.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/ico" href="favicon.png">
+    <link href="Style1.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="favicon1.png">
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-49976593-1']);
