@@ -94,8 +94,8 @@
 
 <div id="text">
     <p>
-        Please submit issues on Github <a href="https://github.com/F32Organization/Faithful32-1.7.10">(1.7.10)</a>
-        <a href="https://github.com/F32Organization/Faithful32-1.6.4">(1.6.4)</a> if you have any questions, comments, or concerns. Specific texture requests are acceptable.
+        Assistance, comments, concerns, and issues on Github - <a href="https://github.com/F32Organization/Faithful32-1.7.10">(1.7.10)</a>
+        <a href="https://github.com/F32Organization/Faithful32-1.6.4">(1.6.4)</a>
     </p>
     <p id="credits">
         Credit:
