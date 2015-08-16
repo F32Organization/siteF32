@@ -28,20 +28,12 @@
 <!-- 1.7.10 DL -->
 <div class="button button-50">
     <a href="http://www.f32.me/F32-1.7.10.zip">
-        <span style="font-weight: bold; text-align: center">Download</span><br>
-        Latest Pack (1.7.10) <br>
+        <span style="font-weight: bold;">Download</span> - Latest Pack - <span style="font-weight: bold;">(1.7.10)</span>
+		<br>
         <!-- Fetch and display last time file was modified. -->
         <?php
         // Output example: Last rebuilt: March 27 2015 22:16:23.
         echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.7.10.zip"));
-        ?>
-        <br>
-        <!-- Fetch md5 value from build script file and display. -->
-        <?php
-        $my_file = @fopen("1710sum.md5", "r");
-        echo "md5 hash value: ";
-        echo @fgets($my_file);
-        @fclose($my_file);
         ?>
     </a>
 </div>
@@ -49,20 +41,12 @@
 <!-- 1.6.4 DL -->
 <div class="button button-50">
     <a href="http://www.f32.me/F32-1.6.4.zip">
-        <span style="font-weight: bold; text-align: center">Download</span><br>
-        Latest Pack (1.6.4)<br>
+        <span style="font-weight: bold;">Download</span> - Latest Pack - <span style="font-weight: bold;">(1.6.4)</span>
+		<br>
         <!-- Fetch and display last time file was modified. -->
         <?php
         // Output example: Last rebuilt: March 27 2015 22:16:23.
         echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.6.4.zip"));
-        ?>
-        <br>
-        <!-- Fetch md5 value from build script file and display. -->
-        <?php
-        $my_file = @fopen("164sum.md5", "r");
-        echo "md5 hash value: ";
-        echo @fgets($my_file);
-        @fclose($my_file);
         ?>
     </a>
 </div>
@@ -70,21 +54,21 @@
 <br class="clear">
 
 <!-- 1.5.2 & 1.4.7 DL -->
-<div class="button button-100 center">
+<div class="button button-100">
     <a href="http://www.f32.me/old">
         Older Packs (1.5.2 & 1.4.7)
     </a>
 </div>
 
 <!-- 1.7.10 Mod Support -->
-<div class="button button-50 center">
+<div class="button button-50">
     <a href="http://www.f32.me/1710">
         Individual Mod Support (1.7.10)
     </a>
 </div>
 
 <!-- 1.6.4 Mod Support -->
-<div class="button button-50 center">
+<div class="button button-50">
     <a href="http://www.f32.me/164">
         Individual Mod Support (1.6.4)
     </a>
