@@ -108,17 +108,17 @@
 <hr>	
     <p id="credits" style="font-size:100%;">
         Credit:
-		<br>	
+		<br></br>
 		Hosting provided by Greenphlem.
-		<br>
+		<br></br>
         <a href="https://github.com/F32Organization/siteF32/graphs/contributors">
             Designed by Github Contributors.
         </a>
-		<br>
+		<br></br>
         <a href="http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1223254">
             Vanilla pack by Vattic.
         </a>
-		<br>
+		<br></br>
         <a href="https://github.com/F32Organization/Faithful32-1.7.10/graphs/contributors">
             Modded work by Github Contributors and older third parties.
         </a>
