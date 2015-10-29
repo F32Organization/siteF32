@@ -63,7 +63,7 @@
         <b>Download - Latest Pack - (1.7.10)</b>
 		<br>
         <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.7.10.zip")); ?></span>
-		<span class="shh"><?php $my_file = @fopen("1710.md5", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>        
+		<span class="shh"><?php $my_file = @fopen("1710sum.md5", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>        
     </a>
 </div>
 
@@ -72,7 +72,7 @@
         <b>Download - Latest Pack - (1.6.4)</b>
 		<br>
         <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.6.4.zip")); ?></span>
-		<span class="shh"><?php $my_file = @fopen("164.md5", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>  
+		<span class="shh"><?php $my_file = @fopen("164sum.md5", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>  
     </a>
 </div>
 
