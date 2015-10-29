@@ -45,56 +45,48 @@
 	.clear {
 		clear: both;
 	}
+	.shh, a:hover span { display: none }
+	a:hover .shh { 
+		word-wrap: break-word;
+		display: inline ;
+	}
+	
+	
 	</style>
 </head>
 <body bgcolor="#262626" style="font-size:100%;color:#FFFFFF;padding-left:10%;padding-right:10%;">
 <font face="'Open Sans', verdana, sans-serif">
-<!-- Logo -->
 <h1 id="logo">Faithful 32 <span style="color: #0026FF">Modd</span><span style="color: #32A800">ed Edi</span><span style="color: #E50000">tion</span></h1>
 
-<!-- 1.7.10 DL -->
 <div class="button" style="width:50%;">
     <a href="http://www.f32.me/F32-1.7.10.zip">
-        <span style="font-weight: bold;">Download</span> - Latest Pack - <span style="font-weight: bold;">(1.7.10)</span>
+        <b>Download - Latest Pack - (1.7.10)</b>
 		<br>
-        <!-- Fetch and display last time file was modified. -->
-        <?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.7.10.zip")); ?>
-        <!--Output example: Last rebuilt: March 27 2015 22:16:23. -->
-        
+        <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.7.10.zip")); ?></span>
+		<span class="shh"><?php $my_file = @fopen("1710.md5", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>        
     </a>
 </div>
 
-<!-- 1.6.4 DL -->
 <div class="button" style="width:50%;">
     <a href="http://www.f32.me/F32-1.6.4.zip">
-        <span style="font-weight: bold;">Download</span> - Latest Pack - <span style="font-weight: bold;">(1.6.4)</span>
+        <b>Download - Latest Pack - (1.6.4)</b>
 		<br>
-        <!-- Fetch and display last time file was modified. -->
-        <?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.6.4.zip")); ?>
-        <!--Output example: Last rebuilt: March 27 2015 22:16:23. -->
+        <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.6.4.zip")); ?></span>
+		<span class="shh"><?php $my_file = @fopen("164.md5", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>  
     </a>
 </div>
 
 <br class="clear">
 
-<!-- 1.5.2 & 1.4.7 DL -->
 <div class="button" style="width:100%;">
     <a href="http://www.f32.me/old">
         Older Packs (1.5.2 & 1.4.7)
     </a>
 </div>
 
-<!-- 1.7.10 Mod Support -->
-<div class="button" style="width:50%;">
-    <a href="http://www.f32.me/1710">
-        Individual Mod Support (1.7.10)
-    </a>
-</div>
-
-<!-- 1.6.4 Mod Support -->
-<div class="button" style="width:50%;">
-    <a href="http://www.f32.me/164">
-        Individual Mod Support (1.6.4)
+<div class="button" style="width:100%;">
+    <a href="http://www.f32.me/mods">
+        Individual Mod Support
     </a>
 </div>
 
