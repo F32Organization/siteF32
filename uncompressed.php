@@ -50,8 +50,6 @@
 		word-wrap: break-word;
 		display: inline ;
 	}
-	
-	
 	</style>
 </head>
 <body bgcolor="#262626" style="font-size:100%;color:#FFFFFF;padding-left:10%;padding-right:10%;">
@@ -59,43 +57,36 @@
 <h1 id="logo">Faithful 32 <span style="color: #0026FF">Modd</span><span style="color: #32A800">ed Edi</span><span style="color: #E50000">tion</span></h1>
 
 <div class="button" style="width:50%;">
+    <a href="http://www.f32.me/F32-1.10.2.zip">
+        <b>Download - Latest Pack - (1.10.2)</b>
+		<br>
+        <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.10.2.zip")); ?></span>
+		<span class="shh"><?php $my_file = @fopen("sum1102.txt", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>        
+    </a>
+</div>
+<div class="button" style="width:50%;">
     <a href="http://www.f32.me/F32-1.7.10.zip">
         <b>Download - Latest Pack - (1.7.10)</b>
 		<br>
         <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.7.10.zip")); ?></span>
-		<span class="shh"><?php $my_file = @fopen("sum1710.txt", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>        
+		<span class="shh"><?php $my_file = @fopen("sum1710.txt", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>  
     </a>
 </div>
-
-<div class="button" style="width:50%;">
-    <a href="http://www.f32.me/F32-1.6.4.zip">
-        <b>Download - Latest Pack - (1.6.4)</b>
-		<br>
-        <span><?php echo "Last rebuilt: ".date("F d Y H:i",@filemtime("F32-1.6.4.zip")); ?></span>
-		<span class="shh"><?php $my_file = @fopen("sum164.txt", "r"); echo "md5 hash value: "; echo @fgets($my_file); @fclose($my_file); ?></span>  
-    </a>
-</div>
-
 <br class="clear">
-
 <div class="button" style="width:100%;">
     <a href="http://www.f32.me/old">
-        Older Packs (1.5.2 & 1.4.7)
+        Older Packs (1.6.4 & 1.5.2 & 1.4.7)
     </a>
 </div>
-
 <div class="button" style="width:100%;">
     <a href="http://www.f32.me/mods">
         Individual Mod Support
     </a>
 </div>
-
 <br class="clear">
-
 <div id="text">
     <p>
-        Assistance, comments, concerns, and issues on Github - <a href="https://github.com/F32Organization/Faithful32-1.7.10">(1.7.10)</a>
-        <a href="https://github.com/F32Organization/Faithful32-1.6.4">(1.6.4)</a>
+        <a href="https://github.com/F32Organization">Assistance, comments, concerns, and issues on Github.</a>
     </p>
 <hr>	
     <p id="credits" style="font-size:100%;">
@@ -103,17 +94,11 @@
 		<br></br>
 		Hosting provided by Greenphlem.
 		<br></br>
-        <a href="https://github.com/F32Organization/siteF32/graphs/contributors">
-            Designed by Github Contributors.
-        </a>
-		<br></br>
         <a href="http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1223254">
             Vanilla pack by Vattic.
         </a>
 		<br></br>
-        <a href="https://github.com/F32Organization/Faithful32-1.7.10/graphs/contributors">
-            Modded work by Github Contributors and older third parties.
-        </a>
+
     </p>
 </div>
 </font>
